@@ -7,6 +7,6 @@ const DB_PASSWORD = "root";
 const sequelize = new Sequelize(DB_NAME, DB_USERNAME, DB_PASSWORD, {
   host: "localhost",
   dialect: "sqlite",
-  storage: "../db/db.sqlite",
+  storage: "db/db.sqlite",
 });
 module.exports = sequelize;

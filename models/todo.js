@@ -13,6 +13,6 @@ const todo = sequelize.define("Todo", {
     type: Sequelize.BOOLEAN,
     allowNull: false,
   },
-  tytle: { type: Sequelize.STRING, allowNull: false },
+  title: { type: Sequelize.STRING, allowNull: false },
 });
 module.exports = todo;
